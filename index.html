@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bulb Toggle</title>
+  <style>
+    #bulb {
+      width: 150px;
+    }
+  </style>
+</head>
+<body style="background-color: rgb(27, 30, 32); text-align: center;">
+
+<h2 style="color: rgb(216, 166, 166); font-family:'serif';">we will change this content which is bulb image here</h2>
+
+<!-- Bulb image -->
+<img id="bulb" src="offbulb.png" alt="Bulb">
+
+<br><br>
+
+<!-- Buttons -->
+<button onclick="turnOn()" style="background-color: green; color: white; border: none; padding: 10px 20px; cursor: pointer;">Turn On</button>
+<button onclick="turnOff()" style="background-color: red; color: white; border: none; padding: 10px 20px; cursor: pointer;">Turn Off</button>
+
+<script>
+  function turnOn() {
+    document.getElementById("bulb").src = "onbulb.png";
+  }
+
+  function turnOff() {
+    document.getElementById("bulb").src = "offbulb.png";
+  }
+</script>
+
+</body>
+</html>
