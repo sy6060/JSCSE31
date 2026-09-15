@@ -1,0 +1,7 @@
+name: Sanvi Yadav
+roll no: 250320
+branch:CSE
+semester: 3rd
+subject: FSD
+marks: 45/50
+attendance:83%
